@@ -1,16 +1,23 @@
-
-
+<!DOCTYPE html>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bajrangi Real Estate</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-body{
+*{
 margin:0;
-font-family:Arial,sans-serif;
-background:#f5f5f5;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#222;
 }
 
 header{
@@ -20,64 +27,55 @@ padding:20px;
 text-align:center;
 }
 
+header h1{
+font-size:36px;
+}
+
 nav{
 background:#1565c0;
-padding:10px;
+padding:15px;
 text-align:center;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin:10px;
+margin:15px;
 font-weight:bold;
 }
 
 .hero{
-padding:50px 20px;
+height:500px;
+background:url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
 text-align:center;
-background:white;
+color:white;
 }
 
-.hero h2{
-color:#0d47a1;
+.hero-content{
+background:rgba(0,0,0,0.55);
+padding:30px;
+border-radius:12px;
 }
 
 .btn{
 display:inline-block;
-background:#25D366;
-color:white;
-padding:12px 20px;
-text-decoration:none;
+padding:14px 25px;
+margin:10px;
 border-radius:8px;
-margin-top:15px;
-}
-
-section{
-padding:25px;
-background:white;
-margin:15px;
-border-radius:10px;
-}
-
-footer{
-background:#0d47a1;
-color:white;
-text-align:center;
-padding:15px;
-margin-top:20px;
-}
-
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px;
-border-radius:50%;
-font-size:24px;
 text-decoration:none;
+font-weight:bold;
+color:white;
+}
+
+.whatsapp-btn{
+background:#25D366;
+}
+
+.call-btn{
+background:#ff9800;
 }
 </style>
 </head>
@@ -91,38 +89,18 @@ text-decoration:none;
 
 <nav>
 <a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
 </nav>
 
-<div class="hero">
+<section class="hero">
+<div class="hero-content">
 <h2>Welcome to Bajrangi Real Estate</h2>
-<p>Plot, House, Flat और Commercial Property खरीदें और बेचें।</p>
+<p>Plot • House • Flat • Commercial Property</p>
 
-<a class="btn" href="https://wa.me/918009673887">WhatsApp करें</a>
+<a class="btn whatsapp-btn" href="https://wa.me/918009673887">WhatsApp करें</a>
+
+<a class="btn call-btn" href="tel:+918009673887">📞 Call Now</a>
 </div>
-
-<section>
-<h2>हमारी सेवाएँ</h2>
-<ul>
-<li>🏠 मकान खरीदना</li>
-<li>🏡 प्लॉट खरीदना</li>
-<li>🏢 कमर्शियल प्रॉपर्टी</li>
-<li>📑 प्रॉपर्टी सलाह</li>
-</ul>
 </section>
-
-<section>
-<h2>संपर्क करें</h2>
-<p>📞 Mobile: +91 8009673887</p>
-<p>📧 Email: bajrangic325@gmail.com </p>
-</section>
-
-<footer>
-© 2026 Bajrangi Real Estate | All Rights Reserved
-</footer>
-
-<a class="whatsapp" href="https://wa.me/918009673887">💬</a>
-
-</
