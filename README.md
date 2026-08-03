@@ -114,4 +114,48 @@ Commercial एवं Agriculture Property की खरीद-बिक्री
 
 </div>
 
+</section><!-- Contact Section -->
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>🏢 Bajrangi Real Estate</strong></p>
+
+<p>📍 Sheikhpura, Azamgarh, Uttar Pradesh</p>
+
+<p>📞 <a href="tel:+918009673887">+91 8009673887</a></p>
+
+<p>💬 <a href="https://wa.me/918009673887">Chat on WhatsApp</a></p>
+
+<p>📧 Email: bajrangirealestate@gmail.com</p>
+
 </section>
+
+<!-- Google Map -->
+<section id="map">
+
+<h2>Our Location</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Sheikhpura,Azamgarh,Uttar+Pradesh&output=embed"
+width="100%"
+height="350"
+style="border:0;"
+loading="lazy">
+</iframe>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+<h3>Bajrangi Real Estate</h3>
+
+<p>Your Trusted Property Partner</p>
+
+<p>© 2026 Bajrangi Real Estate. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
