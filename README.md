@@ -158,4 +158,23 @@ loading="lazy">
 </footer>
 
 </body>
-</html>
+</html><!-- Contact Section -->
+<section id="contact" class="section-bg">
+
+<div class="container">
+
+<h2>📞 Contact Us</h2>
+
+<p><strong>Bajrangi Real Estate</strong></p>
+
+<p>📍 Sheikhpura, Azamgarh, Uttar Pradesh</p>
+
+<p>📞 <a href="tel:+918009673887">+91 8009673887</a></p>
+
+<p>💬 <a href="https://wa.me/918009673887">WhatsApp Us</a></p>
+
+<p>📧 Email: bajrangirealestate@gmail.com</p>
+
+</div>
+
+</section>
