@@ -129,4 +129,59 @@ background:#e68900;
 
 </div>
 
+</section><!-- About Section -->
+
+<section id="about" style="padding:60px 20px;background:#ffffff;">
+
+<div style="max-width:1200px;margin:auto;text-align:center;">
+
+<h2 style="font-size:35px;color:#0d47a1;">
+About Bajrangi Real Estate
+</h2>
+
+<p style="margin-top:20px;font-size:18px;line-height:32px;color:#555;">
+हम Azamgarh में Plot, House, Commercial Property और Agriculture Land की खरीद एवं बिक्री की विश्वसनीय सेवा प्रदान करते हैं।
+हमारा उद्देश्य ग्राहकों को सही संपत्ति, सही कीमत और पूरी ईमानदारी के साथ उपलब्ध कराना है।
+</p>
+
+</div>
+
+</section>
+
+<!-- Services Section -->
+
+<section id="services" style="padding:60px 20px;background:#f4f8fb;">
+
+<div style="max-width:1200px;margin:auto;">
+
+<h2 style="text-align:center;color:#0d47a1;font-size:35px;">
+Our Services
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;margin-top:40px;">
+
+<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3>🏡 Residential Plot</h3>
+<p>Verified Residential Plots Available.</p>
+</div>
+
+<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3>🏠 Houses</h3>
+<p>New & Old Houses Available.</p>
+</div>
+
+<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3>🏢 Commercial Property</h3>
+<p>Office, Shop & Commercial Space.</p>
+</div>
+
+<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3>🌾 Agriculture Land</h3>
+<p>Best Farming Land Deals.</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
