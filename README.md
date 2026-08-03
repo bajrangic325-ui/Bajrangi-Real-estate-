@@ -67,4 +67,51 @@ Commercial एवं Agriculture Property की खरीद-बिक्री
 <div class="card">🏢 Commercial Property</div>
 <div class="card">🌾 Agriculture Land</div>
 
+</section><!-- Featured Properties -->
+<section id="properties" class="properties">
+
+<h2>Featured Properties</h2>
+
+<div class="property-grid">
+
+<div class="property-card">
+<h3>🏡 Residential Plot</h3>
+<p>📍 Sheikhpura, Azamgarh, Uttar Pradesh</p>
+<p>Property Details Coming Soon</p>
+<a href="tel:+918009673887" class="btn">📞 Call for Details</a>
+</div>
+
+<div class="property-card">
+<h3>🏠 Independent House</h3>
+<p>📍 Azamgarh, Uttar Pradesh</p>
+<p>Property Details Coming Soon</p>
+<a href="tel:+918009673887" class="btn">📞 Call for Details</a>
+</div>
+
+<div class="property-card">
+<h3>🏢 Commercial Property</h3>
+<p>📍 Azamgarh, Uttar Pradesh</p>
+<p>Property Details Coming Soon</p>
+<a href="tel:+918009673887" class="btn">📞 Call for Details</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- Why Choose Us -->
+
+<section class="why-us">
+
+<h2>Why Choose Bajrangi Real Estate?</h2>
+
+<div class="features">
+
+<div>✅ Trusted Service</div>
+<div>✅ Verified Properties</div>
+<div>✅ Best Support</div>
+<div>✅ Transparent Deal</div>
+
+</div>
+
 </section>
