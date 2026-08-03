@@ -177,4 +177,108 @@ loading="lazy">
 
 </div>
 
+</section><!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bajrangi Real Estate</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+<h1>Bajrangi Real Estate</h1>
+<p>आपके सपनों का घर, हमारी जिम्मेदारी</p>
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#properties">Properties</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="overlay">
+
+<h2>Find Your Dream Property</h2>
+
+<p>Plot • House • Commercial • Agriculture Land</p>
+
+<div class="buttons">
+
+<a href="https://wa.me/918009673887" class="btn whatsapp">
+WhatsApp
+</a>
+
+<a href="tel:+918009673887" class="btn call">
+Call Now
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<h2>About Us</h2>
+
+<p>
+
+Bajrangi Real Estate में आपका स्वागत है।
+
+हम Azamgarh और आसपास के क्षेत्रों में Plot, House,
+Commercial Property तथा Agriculture Land की खरीद-बिक्री में आपकी सहायता करते हैं।
+
+</p>
+
+</section>
+
+<section id="services" class="section">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+🏡
+<h3>Residential Plot</h3>
+<p>सुरक्षित एवं Verified Plot</p>
+</div>
+
+<div class="card">
+🏠
+<h3>House</h3>
+<p>नया एवं पुराना मकान</p>
+</div>
+
+<div class="card">
+🏢
+<h3>Commercial</h3>
+<p>दुकान एवं ऑफिस</p>
+</div>
+
+<div class="card">
+🌾
+<h3>Agriculture Land</h3>
+<p>खेती योग्य भूमि</p>
+</div>
+
+</div>
+
 </section>
