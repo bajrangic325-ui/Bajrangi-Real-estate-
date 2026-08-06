@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hi">
 <head>
@@ -10,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -20,78 +20,141 @@ font-family:'Poppins',sans-serif;
 body{
 background:#f5f5f5;
 color:#333;
+line-height:1.6;
 }
 
 header{
 background:#0d47a1;
-color:white;
-padding:15px 20px;
+padding:15px 25px;
 position:sticky;
 top:0;
-z-index:1000;
+z-index:999;
 }
 
 nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
+flex-wrap:wrap;
 }
 
 .logo{
-font-size:28px;
+color:#fff;
+font-size:30px;
 font-weight:bold;
 }
 
 nav ul{
 display:flex;
 list-style:none;
-}
-
-nav ul li{
-margin-left:20px;
+gap:20px;
 }
 
 nav ul li a{
-color:white;
+color:#fff;
 text-decoration:none;
 font-weight:bold;
 }
 
 .hero{
 height:90vh;
-background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80');
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80");
 background-size:cover;
 background-position:center;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-color:white;
 padding:20px;
+color:white;
 }
 
 .hero h1{
-font-size:42px;
+font-size:45px;
 margin-bottom:20px;
 }
 
 .hero p{
-font-size:20px;
+font-size:22px;
 margin-bottom:30px;
 }
 
 .btn{
+display:inline-block;
 background:#ff9800;
 color:white;
-padding:14px 30px;
-text-decoration:none;
+padding:14px 28px;
 border-radius:8px;
+text-decoration:none;
 font-weight:bold;
 }
 
-.btn:hover{
-background:#e68900;
+.section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
 }
+
+.section h2{
+text-align:center;
+font-size:35px;
+margin-bottom:20px;
+color:#0d47a1;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.gallery img{
+width:100%;
+height:230px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.property{
+background:#fff;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+margin-top:30px;
+}
+
+footer{
+background:#0d47a1;
+color:#fff;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+margin-top:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
+
 </style>
 
 </head>
@@ -107,10 +170,15 @@ background:#e68900;
 </div>
 
 <ul>
+
 <li><a href="#home">Home</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
 <li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
+
 <li><a href="#contact">Contact</a></li>
+
 </ul>
 
 </nav>
@@ -121,7 +189,7 @@ background:#e68900;
 
 <div>
 
-<h1>आपके सपनों का घर, हमारी ज़िम्मेदारी</h1>
+<h1>आपके सपनों का प्लॉट हमारी जिम्मेदारी</h1>
 
 <p>Plot • House • Commercial • Agriculture Land</p>
 
@@ -129,269 +197,4 @@ background:#e68900;
 
 </div>
 
-</section><!-- About Section -->
-
-<section id="about" style="padding:60px 20px;background:#ffffff;">
-
-<div style="max-width:1200px;margin:auto;text-align:center;">
-
-<h2 style="font-size:35px;color:#0d47a1;">
-About Bajrangi Real Estate
-</h2>
-
-<p style="margin-top:20px;font-size:18px;line-height:32px;color:#555;">
-हम Azamgarh में Plot, House, Commercial Property और Agriculture Land की खरीद एवं बिक्री की विश्वसनीय सेवा प्रदान करते हैं।
-हमारा उद्देश्य ग्राहकों को सही संपत्ति, सही कीमत और पूरी ईमानदारी के साथ उपलब्ध कराना है।
-</p>
-
-</div>
-
 </section>
-
-<!-- Services Section -->
-
-<section id="services" style="padding:60px 20px;background:#f4f8fb;">
-
-<div style="max-width:1200px;margin:auto;">
-
-<h2 style="text-align:center;color:#0d47a1;font-size:35px;">
-Our Services
-</h2>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;margin-top:40px;">
-
-<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>🏡 Residential Plot</h3>
-<p>Verified Residential Plots Available.</p>
-</div>
-
-<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>🏠 Houses</h3>
-<p>New & Old Houses Available.</p>
-</div>
-
-<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>🏢 Commercial Property</h3>
-<p>Office, Shop & Commercial Space.</p>
-</div>
-
-<div style="background:#fff;padding:25px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>🌾 Agriculture Land</h3>
-<p>Best Farming Land Deals.</p>
-</div>
-
-</div>
-
-</div>
-
-</section><!-- ABOUT -->
-<section id="about" class="section">
-  <h2>About Us</h2>
-  <p>
-    Bajrangi Real Estate में आपका स्वागत है।
-    हम Azamgarh में Plot, House, Commercial Property और Agriculture Land
-    की खरीद एवं बिक्री की विश्वसनीय सेवा प्रदान करते हैं।
-  </p>
-</section>
-
-<!-- SERVICES -->
-<section id="services" class="section">
-  <h2>Our Services</h2>
-
-  <div class="card">
-    <h3>🏡 Residential Plot</h3>
-    <p>Verified Residential Plots Available.</p>
-  </div>
-
-  <div class="card">
-    <h3>🏠 Houses</h3>
-    <p>New & Old Houses Available.</p>
-  </div>
-
-  <div class="card">
-    <h3>🏢 Commercial Property</h3>
-    <p>Office, Shop & Commercial Space.</p>
-  </div>
-
-  <div class="card">
-    <h3>🌾 Agriculture Land</h3>
-    <p>Best Farming Land Deals.</p>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <h2>Contact Us</h2>
-
-  <p><b>📍 Location:</b> Azamgarh, Uttar Pradesh</p>
-
-  <p><b>📞 Phone:</b>
-    <a href="tel:+918009673887">8009673887</a>
-  </p>
-
-  <p>
-    <a href="https://wa.me/918009673887" class="btn">
-      WhatsApp Chat
-    </a>
-  </p>
-</section>
-
-<footer>
-  <p>© 2026 Bajrangi Real Estate. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html><!-- WHY CHOOSE US -->
-<section id="why" style="padding:60px 20px;background:#f8f9fa;text-align:center;">
-
-<h2 style="color:#0d47a1;">Why Choose Bajrangi Real Estate?</h2>
-
-<div style="max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:30px;">
-
-<div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>✔ Trusted Service</h3>
-<p>ईमानदारी और भरोसे के साथ सेवा।</p>
-</div>
-
-<div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>💰 Best Deals</h3>
-<p>उचित कीमत पर बेहतर प्रॉपर्टी।</p>
-</div>
-
-<div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>📍 Prime Location</h3>
-<p>Azamgarh और आसपास की लोकेशन।</p>
-</div>
-
-<div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
-<h3>🤝 Customer Support</h3>
-<p>हर कदम पर पूरी सहायता।</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- FOOTER -->
-<footer style="background:#0d47a1;color:white;text-align:center;padding:30px;">
-
-<h2>Bajrangi Real Estate</h2>
-
-<p>Your Trusted Property Partner</p>
-
-<p>📞 +91 8009673887</p>
-
-<p>📍 Sheikhpura, Azamgarh, Uttar Pradesh</p>
-
-<p>© 2026 Bajrangi Real Estate. All Rights Reserved.</p>
-
-</footer>
-
-</body>
-</html><section class="property-card">
-
-<div class="gallery">
-<img src="images/property1.jpg" alt="Property Photo 1">
-<img src="images/property2.jpg" alt="Property Photo 2">
-<img src="images/property3.jpg" alt="Property Photo 3">
-<img src="images/property4.jpg" alt="Property Photo 4">
-</div>
-
-<h2>🏡 Premium Residential Plot for Sale</h2>
-
-<p><strong>📍 Address:</strong> Aniya, Sheikhpura, Azamgarh, Uttar Pradesh</p>
-
-<p><strong>📐 Area:</strong> 1 Biswa (1200 Sq. Ft.)</p>
-
-<p><strong>💰 Price:</strong> ₹25,00,000</p>
-
-<ul>
-<li>✅ Road Facing Plot</li>
-<li>✅ Boundary Wall Available</li>
-<li>✅ Peaceful Location</li>
-<li>✅ Ready for House Construction</li>
-<li>✅ Best Investment Opportunity</li>
-</ul>
-
-<a href="tel:8009673887">📞 Call Now</a>
-
-<a href="https://wa.me/918009673887">💬 WhatsApp</a>
-
-</section><img src="images/property1.jpg" alt="Property Photo 1">
-<img src="images/property2.jpg" alt="Property Photo 2">
-<img src="images/property3.jpg" alt="Property Photo 3">
-<img src="images/property4.jpg" alt="Property Photo 4"><!DOCTYPE html><html lang="hi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>मेरे प्लॉट की फोटो गैलरी</title>  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial, Helvetica, sans-serif;
-    }
-
-    body{
-      background:#f4f4f4;
-      color:#333;
-    }
-
-    .container{
-      width:90%;
-      max-width:1200px;
-      margin:40px auto;
-    }
-
-    h1{
-      text-align:center;
-      margin-bottom:10px;
-      color:#1f2937;
-    }
-
-    p{
-      text-align:center;
-      margin-bottom:30px;
-      color:#555;
-    }
-
-    .gallery{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:20px;
-    }
-
-    .gallery img{
-      width:100%;
-      height:220px;
-      object-fit:cover;
-      border-radius:12px;
-      box-shadow:0 4px 12px rgba(0,0,0,0.15);
-      transition:transform .3s ease;
-    }
-
-    .gallery img:hover{
-      transform:scale(1.03);
-    }
-
-    footer{
-      text-align:center;
-      padding:20px;
-      color:#666;
-    }
-  </style></head><body><div class="container">  <h1>प्लॉट / जमीन की फोटो गैलरी</h1>
-  <p>नीचे हमारे प्लॉट की वास्तविक तस्वीरें दी गई हैं।</p>  <div class="gallery">
-    <img src="images/4541.jpg" alt="Plot Photo 1">
-    <img src="images/4542.jpg" alt="Plot Photo 2">
-    <img src="images/4543.jpg" alt="Plot Photo 3">
-    <img src="images/4539.jpg" alt="Plot Photo 4">
-    <img src="images/4540.jpg" alt="Plot Photo 5">
-    <img src="images/4546.jpg" alt="Plot Photo 6">
-    <img src="images/4544.jpg" alt="Plot Photo 7">
-    <img src="images/4500.jpg" alt="Plot Photo 8">
-    <img src="images/4508.jpg" alt="Plot Photo 9">
-    <img src="images/4510.jpg" alt="Plot Photo 10">
-  </div></div><footer>
-  © 2026 मेरे प्लॉट की वेबसाइट
-</footer></body>
-</html><img src="4541.jpg" style="width:100%; height:auto; border-radius:15px;" alt="Plot Photo">
